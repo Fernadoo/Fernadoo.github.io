@@ -76,3 +76,6 @@ Model *model = [[Model alloc] init];
 
 
 最后，[这里附上一篇YYModel的使用](http://www.jianshu.com/p/25e678fa43d3)
+
+---
+Copyright(c) By
