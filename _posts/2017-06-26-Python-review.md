@@ -18,7 +18,7 @@ tags:
 * `print(value, ..., sep=' ', end='\n', file=sys.stdout, flush=False)` to output something
 	* by default:
 		* with the separation of 
-			```
+			```python
 				>>> print(1,'23asd',[1,2,3],(1,2))
 				1 23asd [1, 2, 3] (1, 2)
 			```
@@ -215,7 +215,7 @@ tags:
 		More
 	```
 
-###7. break & continue
+### 7. break & continue
 * **break** 
 	```
 		>>> for n in range(2, 10):
@@ -254,7 +254,7 @@ tags:
 	```
 ### 8. pass
 
-######The pass statement does nothing.
+###### The pass statement does nothing.
 	```
 		>>> while True:
 		...     pass  # Busy-wait for keyboard interrupt (Ctrl+C)
@@ -336,5 +336,5 @@ tags:
 
 ***
 
-######**more info**: <zhufm@shanghaitech.edu.cn>
+###### **more info**: <zhufm@shanghaitech.edu.cn>
 
