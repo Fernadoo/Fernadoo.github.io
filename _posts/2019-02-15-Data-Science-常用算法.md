@@ -34,11 +34,11 @@ tags:
 * Inverse document frequency
   * $IDF(x) = \log \frac{N}{N(x)}$
   * Smoothing: $\log \frac{N+1}{N(x)+1}+1$
-* $TF-IDF(x) = TF(x)*IDF(x)$
+* $TF-IDF(x) = TF(x) * IDF(x)$
 
 #### Latent Semantic Analysis (LSA)
 
-* $\arg min_{C_k} ||X||_F = \sqrt{\sum_{i=1}^M \sum_{j=1}^N|X_{ij}|^2},\ where\ X=C-C_k $
+* $\arg min_{C_k} \left\|X\right\|_F = \sqrt{\sum_{i=1}^M \sum_{j=1}^N\left\|X_{ij}\right\|^2},\ where\ X=C-C_k $
 * $C=U \Sigma V^T$, $C_k = U\Sigma_kV^T$
 
 ####  Adaptive Boosting (Adaboost) [not clear]
