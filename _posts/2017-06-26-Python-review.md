@@ -4,7 +4,7 @@ title:      Python review
 subtitle:   小白请进
 date:       2017-06-26
 author:     Fernando
-header-img: img/post-bg-re-vs-ng2.jpg
+header-img: img/170626/header.jpg
 catalog: true
 tags:
     - Python
