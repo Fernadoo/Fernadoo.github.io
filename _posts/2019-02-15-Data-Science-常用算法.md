@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Data Science 常用算法
-subtitle:   LaTex还不能正常显示😑
+subtitle:   LaTex可以正常显示啦！😬
 date:       2019-02-15
 author:     Fernando
 header-img: img/190215/header.jpg
