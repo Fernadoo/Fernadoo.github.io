@@ -30,7 +30,7 @@ tags:
 
 * Preprocessing (vectorise)
 * Term frequency
-  * {% raw %}$TF(x) = \frac{N(x)}{N}${% endraw %}
+  * $TF(x) = \frac{N(x)}{N}$
 * Inverse document frequency
   * $IDF(x) = \log \frac{N}{N(x)}$
   * Smoothing: $\log \frac{N+1}{N(x)+1}+1$
