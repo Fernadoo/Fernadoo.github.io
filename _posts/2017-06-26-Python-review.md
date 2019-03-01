@@ -34,7 +34,7 @@ tags:
 		* ignore `file=sys.stdout, flush=False`
 	* change the arguements
 		* change the separation 
-			```
+			```python
 				>>> print(1,'23asd',[1,2,3],(1,2), sep='\n')
 				1
 				23asd
@@ -42,7 +42,7 @@ tags:
 				(1, 2)	
 			```
 		* change the end
-			```
+			```python
 				>>>	for i in range(1,4):
 				...		print(i,end=' ')
 				...
@@ -59,21 +59,21 @@ tags:
 * something enclosed with `"` or `'`
 * operations:
 	* `len(s)` to work out the length of s
-		```
+		```python
 			>>> s='123sd67fhjk'
 			>>> len(s)
 			11
 		```
 	* `index` & `slice`
 		* index: `s[i]` to enter the (i+1)th element of s
-			```	
+			```python
 				>>> s[0]
 				'1'
 				>>> s[-1]
 				'k'
 			```
 		* slice: `s[i:j:k]` to take out a slice starting with index i , ending up with index (j-1), with the step of k   
-			```
+			```python
 				>>> s[1:10:3]
 				'2df'
 				>>> s[2:5]
@@ -84,7 +84,7 @@ tags:
 				'123sd67'
 			```
 		* does not support item assignment
-			```	
+			```python	
 				>>> s[2]=4
 				Traceback (most recent call last):
 					  File "<stdin>", line 1, in <module>
@@ -103,14 +103,14 @@ tags:
 	* `len(l)` as string
 		`index` and `slice` mostly as string	
 		* support item assignment
-			```
+			```python
 				>>> l=[1,2,3]
 				>>> l[2]=5
 				>>> l
 				[1,2,5]
 			```
 	* `l.append(a)` to push a into l (and return None)
-		```
+		```python
 			>>> l=[1,2,3]
 			>>> l.append(5)
 			>>> l
@@ -120,7 +120,7 @@ tags:
 			None
 			```
 	* `l.pop(i)` to pop out the ith element (and return it)
-		```	
+		```python
 			>>> l=[1,2,3,4,5,6,7]
 			>>> l.pop()
 			7
@@ -139,7 +139,7 @@ tags:
 	* `len(l)` as string
 	* `index` and `slice` as string
 		* does not support item assignment
-			```	
+			```python	
 				>>> t=(1,2,3)
 				>>> t[2]
 				3
@@ -152,7 +152,7 @@ tags:
 	
 ***
 
-***quick view***
+### ***quick view***
 
 |                   |str   |list|tuple|
 |:-----------------:|:----:|:--:|:---:|
@@ -179,7 +179,7 @@ tags:
 ### 6. for & while & if
 
 * **for** 
-	```
+	```python
 		>>> # Measure some strings:
 		... words = ['cat', 'window', 'defenestrate']
 		>>> for w in words:
@@ -190,7 +190,7 @@ tags:
 		defenestrate 12
 	```
 * **while**
-	```
+	```python
 		>>> a, b = 0, 1
 		>>> while b < 1000:
 		...     print(b, end=',')
@@ -199,7 +199,7 @@ tags:
 		1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,
 	```
 * **if**
-	```
+	```python
 		>>> x = int(input("Please enter an integer: "))
 		Please enter an integer: 42
 		>>> if x < 0:
@@ -217,7 +217,7 @@ tags:
 
 ### 7. break & continue
 * **break** 
-	```
+	```python
 		>>> for n in range(2, 10):
 		...     for x in range(2, n):
 		...         if n % x == 0:
@@ -237,7 +237,7 @@ tags:
 		9 equals 3 * 3
 	```
 * **continue**
-	```
+	```python
 		>>> for num in range(2, 10):
 		...     if num % 2 == 0:
 		...         print("Found an even number", num)
@@ -254,12 +254,12 @@ tags:
 	```
 ### 8. pass
 
-###### The pass statement does nothing.
-	```
+* The pass statement does nothing.
+	```python
 		>>> while True:
 		...     pass  # Busy-wait for keyboard interrupt (Ctrl+C)
 		...
-		
+		>>>
 		>>> def f(x):
 		...     pass   # Remember to implement this!
 		...
@@ -267,7 +267,7 @@ tags:
 ### 9. other useful functions 
 
 1. `*range()`
-	```
+	```python
 		>>> for i in range(1,10,3):
 		... 	print(i)
 		...
@@ -290,7 +290,7 @@ tags:
 	click [The range() Function](https://docs.python.org/3/tutorial/controlflow.html#the-range-function) and refer to Chap4.3
 	
 2. `*eavl()`
-	```
+	```python
 		>>> s='123'
 		>>> s=eval(s)
 		>>> s
@@ -313,7 +313,7 @@ tags:
 	```
 	
 3. `''.join()`
-	```
+	```python
 		>>> l=['2','3','4','qwe','asd']
 		>>> r='-enhhh-'.join(l)
 		>>> r
@@ -321,14 +321,14 @@ tags:
 	```
 
 4. `split()`
-	```
+	```python
 		>>> s='123|242|sdfsd'
 		>>> l=s.split('|')
 		>>> l #return a list
 		['123', '242', 'sdfsd'] 
 	```
 5. `count()`
-	```
+	```python
 		>>> l=['1','4','1']
 		>>> l.count('1')
 		2
@@ -336,5 +336,5 @@ tags:
 
 ***
 
-###### **more info**: <zhufm@shanghaitech.edu.cn>
+**more info**: <zhufm@shanghaitech.edu.cn>
 
