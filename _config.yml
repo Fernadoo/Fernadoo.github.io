@@ -7,7 +7,7 @@ description: "Stay hungry, stay foolish."
 keyword: "iOS, Apple, iPhone"
 url: "http://Fernadoo.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
+github_repo: "https://github.com/Fernadoo/Fernadoo.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
