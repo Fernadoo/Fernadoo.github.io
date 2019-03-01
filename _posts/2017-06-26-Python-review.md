@@ -264,7 +264,7 @@ tags:
 		...     pass   # Remember to implement this!
 		...
 	```
-### 9. other useful functions 
+### 9. Other useful functions 
 
 1. `*range()`
 	```python
