@@ -38,7 +38,7 @@ tags:
 
 #### Latent Semantic Analysis (LSA)
 
-* $\arg min_{C_k} \|\|X\|\|_F = \sqrt{\sum_{i=1}^M \sum_{j=1}^N\|X_{ij}\|^2},\ where\ X=C-C_k $
+* $\arg min_{C_k} \||X|\|_F = \sqrt{\sum_{i=1}^M \sum_{j=1}^N\|X_{ij}\|^2},\ where\ X=C-C_k $
 * $C=U \Sigma V^T$, $C_k = U\Sigma_kV^T$
 
 ####  Adaptive Boosting (Adaboost) [not clear]
