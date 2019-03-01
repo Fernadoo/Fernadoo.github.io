@@ -4,7 +4,7 @@ title:      Jupyter notebook import package的问题
 subtitle:   以及偶遇的sys.path
 date:       2019-02-23
 author:     Fernando
-header-img: img/post-bg-re-vs-ng2.jpg
+header-img: img/190223/header.jpg
 catalog: true
 tags:
     - Python
