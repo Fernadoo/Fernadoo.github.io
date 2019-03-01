@@ -4,7 +4,7 @@ title:      Go travelling
 subtitle:   Public Speaking prepared speech (3min)
 date:       2018-11-15
 author:     Fernando
-header-img: img/post-bg-re-vs-ng2.jpg
+header-img: img/181115/header.jpg
 catalog: false
 tags:
     - Public speaking

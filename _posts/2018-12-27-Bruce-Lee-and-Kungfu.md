@@ -4,7 +4,7 @@ title:      Bruce Lee and Kungfu
 subtitle:   Public Speaking Final pre (5min)
 date:       2018-12-27
 author:     Fernando
-header-img: img/post-bg-re-vs-ng2.jpg
+header-img: img/181227/header.jpg
 catalog: false
 tags:
     - Public speaking

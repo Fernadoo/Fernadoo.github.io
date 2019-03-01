@@ -4,7 +4,7 @@ title:      Data Science 常用算法
 subtitle:   LaTex还不能正常显示😑
 date:       2019-02-15
 author:     Fernando
-header-img: img/post-bg-re-vs-ng2.jpg
+header-img: img/190215/header.jpg
 catalog: true
 tags:
     - Data Science
